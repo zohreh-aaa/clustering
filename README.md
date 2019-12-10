@@ -5,7 +5,7 @@ Text analysis allows companies to automatically extract and classify information
 
 > In this project, I want to cluster 94 texts.
 
-> to obtain to this goal I have implemented some Algorithms then compare thier results.
+to obtain to this goal I have implemented some Algorithms then compare thier results.
 In this case, I have 94 files. Each files contains alot of text's data. So, my work consists of 5 steps.
 1- Read file
 2-Preprosessing
