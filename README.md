@@ -55,7 +55,7 @@ the next step is to find the frequency of words and find Tf-Idf matrix
 
 
 ## now everything is ready to use hierarchical clustering algorithm
-we the use of cosine similarity matrix 
+with the use of cosine similarity matrix 
 
 then we can use results in Linkage function in, complete, ward or simple type in order to draw dendrogram
 the output is :
