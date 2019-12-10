@@ -84,12 +84,8 @@ you can see file 4 :
 then with lsi we implement a function to find the most similar white paper to one specific whitepaper for example if you want the most similar paper to paper number 36 you can use this function.
 the result is :
 
-
-to wrap it up we can mention that algorithms like k-means or knn are not good at this particular case so we skip them 
-در پایان میتوان عنوان کرد که الگوریتم های کامینز و غیره به علت کارایی \پایین انتخاب نشد 
-در نهایت کلاستر بندی داده ها با استفاده از روش های ورد امبدینگ مربوطه میتواند یکی از بهترین راه حل ها برای این مساله باشد یعنی ساختن یک دیتابیس مانند کلمات فیسبوک که فقط شامل داده های متنی بلاک چین و ارز های مجازی باشد میتواند برای 
-کار های آینده استفاده شود.
-همچنین روش های آماری برای نرمال کردن داده ها نیز می تواند باعث بهبود در نتیجه شود.
+## final words
+to wrap it up we can mention that algorithms like k-means or knn are not good at this particular case so we skip them.
 
 ## Refrences
 
