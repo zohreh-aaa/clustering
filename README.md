@@ -85,7 +85,7 @@ Then with LSI, we implement a function to find the most similar white paper to o
 The result is :
 
 ## final words
-to wrap it up, we can mention that algorithms like k-means or KNN are not good at this particular case, so we skip them.
+to wrap it up, we can mention that algorithms like k-means or etc are not good at this particular case, so we skip them.
 
 ## Refrences
 
