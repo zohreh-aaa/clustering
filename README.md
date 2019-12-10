@@ -1,14 +1,15 @@
-<a href="http://fvcproductions.com"><img src="https://avatars1.githubusercontent.com/u/4284691?v=3&s=200" title="FVCproductions" alt="FVCproductions"></a>
+# Whitepaper Clustering
 
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
+> In this project, I want to cluster 94 texts
 
-***INSERT GRAPHIC HERE (include hyperlink in image)***
+> to obtain to this goal I have implemented some Algorithms then compare thier results.
+In this case, I have 94 files. Each files contains alot of text' data. So, my work consists of 5 steps.
+1- Read file
+2-Preprosessing
+3-Tokenize
+4-Create Bag of words and Run Tf_Idf Model
+5-Run clustering Algorithms and Show their results 
 
-# Repository Title Goes Here
-
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
 
 > include terms/tags that can be searched
 
