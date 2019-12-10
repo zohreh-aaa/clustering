@@ -23,6 +23,46 @@ For instance, how similar are the phrases “the cat ate the mouse” with “th
 
 
 . Instead of doing a word for word comparison, we also need to pay attention to context in order to capture more of the semantics. To consider semantic similarity we need to focus on phrase/paragraph levels (or lexical chain level) where a piece of text is broken into a relevant group of related words prior to computing similarity. We know that while the words significantly overlap, these two phrases actually have different meaning.
+## read data 
+for reading files we need to run this part of code
+
+
+## preprosessing
+befor we could run any algorithms on data we should preprosess data, 
+we should :
+### convert all charecters to lower case
+### remove all stopwords, punctuations, numbers, html tags 
+
+## tokenizing
+to remove redundent words that are from same root like ability and abilities.
+we can tokenize words
+with this part of code
+
+know we have file_ids and their data, however in the progress of preprosessing its possible for a file to get empty, so we must check that if any file is empty after preprosessing we should remove it's ID
+we do so by this part of code:
+
+
+
+
+
+
+
+for running next parts of the code faster we can save the preprosessed data in this step
+
+## bag of word and tfidf
+the next step is to find the frequncy of words and find Tf-Idf matrix 
+
+
+
+## now everything is ready to use hirarchial clustering algorithm
+we the use of cosine similarity matrix 
+
+then we can use results in Linkage function in complete, ward or simple type in order to draw dendrogram
+the output is :
+
+
+
+
 
 
 در این پروژه می خواهیم داده های وایت پیپر را کلاستر بندی کنیم. برای این کار دو رویکرد وجود دارد کلاستر بندی مفهومی یا لغتی در کلاستر بندی مفهومی دو متن که از نظر محتوا بهم شبیه هستند در یک خوشه قرار میگیرند ولی در کلاستر بندی لغتی متن ها از نظر تعداد کلمات شبیه به هم در یک خوشه قرار می گیرند مثل مورچه گل را خورد یا گل مورچه را خورد این دو متن از لحاظ کلاستر بندی لغتی شبیه به هم اند اما از لحاظ کلاستر بندی مفهومی کاملا باهم متفاوت اند در این پروژه هدف پیاده سازی الگوریتم های کلاستر بندی مفهومی می باشد. داده های داده شده متنی هستند پس قبل از اینکه الگوریتمی روی این داده ها اجرا کنیم نیاز داریم تا پردازش اولیه انجام دهیم برای این کار ابتدا تمام حروف را به لوورکیس  تبدیل می کنیم سپس باید اعداد ،استاپ ورد ها و پانکچویشن ها و تگ های اچ تی ام ال را حذف کنیم بعد از این کار داده را توکنایز کرده و ریشه کلمات را به دست می آوریم برای مثال کلمه ابلیتی و ابلیتیز هردو از یک ریشه اند و برای فهمیدن مفهوم متن نیاز داریم که ریشه کلمات را ذخیره کنیم 
