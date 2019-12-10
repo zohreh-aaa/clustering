@@ -1,3 +1,6 @@
+# What is Text Analysis?
+Text analysis allows companies to automatically extract and classify information from text, such as tweets, emails, support tickets, product reviews, and survey responses. Popular text analysis techniques include sentiment analysis, topic detection, and keyword extraction.
+
 # Whitepaper Clustering
 
 > In this project, I want to cluster 94 texts.
@@ -13,7 +16,4 @@ In this case, I have 94 files. Each files contains alot of text's data. So, my w
 
 ## License
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
+[![License](https://www.kernix.com/article/similarity-measure-of-textual-documents/)
