@@ -3,14 +3,20 @@ Text analysis allows companies to automatically extract and classify information
 
 # Whitepaper Clustering
 
-In this project, I want to cluster 94 texts.
-to obtain to this goal I have implemented some Algorithms then compare thier results.
+In this project,the goal is to cluster 94 whitepapres related to Etherium, each whitepaper is a big text file cosist of almost 3000 lines.
+to achive to this aim I have implemented some Algorithms then compared thier results.
 In this case, I have 94 files. Each files contains alot of text's data. So, my work consists of 5 steps.
--1- Read file
-2-Preprosessing
-3-Tokenize
-4-Create Bag of words and Run Tf_Idf Model
-5-Run clustering Algorithms and Show their results 
+## 1-Reading the files
+## 2-Preprosessing
+## 3-Tokenizing
+## 4-Creating Bag of words and Run Tf_Idf Model
+## 5-Run clustering Algorithms and Show their results 
+
+# about clustering
+we can cluster these data with to approaches 
+## semantic clusterig
+## vscscd clustering
+
 در این پروژه می خواهیم داده های وایت پیپر را کلاستر بندی کنیم. برای این کار دو رویکرد وجود دارد کلاستر بندی مفهومی یا لغتی در کلاستر بندی مفهومی دو متن که از نظر محتوا بهم شبیه هستند در یک خوشه قرار میگیرند ولی در کلاستر بندی لغتی متن ها از نظر تعداد کلمات شبیه به هم در یک خوشه قرار می گیرند مثل مورچه گل را خورد یا گل مورچه را خورد این دو متن از لحاظ کلاستر بندی لغتی شبیه به هم اند اما از لحاظ کلاستر بندی مفهومی کاملا باهم متفاوت اند در این پروژه هدف پیاده سازی الگوریتم های کلاستر بندی مفهومی می باشد. داده های داده شده متنی هستند پس قبل از اینکه الگوریتمی روی این داده ها اجرا کنیم نیاز داریم تا پردازش اولیه انجام دهیم برای این کار ابتدا تمام حروف را به لوورکیس  تبدیل می کنیم سپس باید اعداد ،استاپ ورد ها و پانکچویشن ها و تگ های اچ تی ام ال را حذف کنیم بعد از این کار داده را توکنایز کرده و ریشه کلمات را به دست می آوریم برای مثال کلمه ابلیتی و ابلیتیز هردو از یک ریشه اند و برای فهمیدن مفهوم متن نیاز داریم که ریشه کلمات را ذخیره کنیم 
 در انتهای این بخش تغییرات را ذخیره میکنیم در بخش بعدی چک میکنیم که اگر بعد از تغییرات اعمال شده در بخش قبل اگر محتوی فایلی خالی شده  بود آن فایل را از مجموعه داده ها حذف میکنیم. بعد از اجرای این دو بخش برروی داده های خود مشاهده کردیم که دو فایل از بین رفتند یعنی محتویات این دوفایل حاوی کلمات با معنا نبودند 
 بعد از این مرحله بگ آو ورد را برای هر لغت بدست آوردیم و مدل تی اف آی دی اف را اجرا کردیم.
