@@ -81,7 +81,7 @@ you can see file 4 :
 
 
 
-Then with LSI, we implement a function to find the most similar white paper to one specific whitepaper; for example, if you want the most similar paper to paper number 36, you can use this function.
+Then with LSI, we implement a function to find the most similar white paper to one specific whitepaper; for example, if you want the most similar paper to paper number 2, you can use this function.
 The result is :
 
 ## final words
