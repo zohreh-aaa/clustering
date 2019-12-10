@@ -14,6 +14,6 @@ In this case, I have 94 files. Each files contains alot of text's data. So, my w
 5-Run clustering Algorithms and Show their results 
 
 
-## License
+## Refrences
 
-[![License](https://www.kernix.com/article/similarity-measure-of-textual-documents/)
+1-(https://www.kernix.com/article/similarity-measure-of-textual-documents/)
