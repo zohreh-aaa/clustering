@@ -34,9 +34,9 @@ print(ID_files,len(ID_files))
 
 ## Preprocessing
 Raw data contain numerical values, punctuation, special character, etc. These values can hamper the performance of the model, so before applying any text featurization. First, we need to convert raw data into meaningful data, which is also called as text preprocessing. This step can be done by following ways:
-## convert all characters to lower case
-## remove all stopwords, punctuations, numbers, HTML tags
-## Tokenization 
+#### convert all characters to lower case
+#### remove all stopwords, punctuations, numbers, HTML tags
+#### Tokenization 
 ### -Remove Noisy Data
 In regular sentences, Noisy data can be defined as text file header, footer, HTML, XML, markup data. As, this type of data is not meaningful and does not provide any information, so it is mandatory to remove this type of noisy data. In python HTML, XML can be removed by BeautifulSoup library while markup, the header can be removed by using regular expression
 ### -Tokenization
@@ -45,7 +45,7 @@ To remove redundant words that are from the same root as ability and abilities. 
 WordNetLemmatizer function.
 ## Check function
 Now we have file_ids and their data, however in the progress of preprocessing its possible for a file to get empty, so we must check that if any file is empty after preprocessing, we should remove its ID. I have implement the check function. So , the result was interesting two documents out of 94  Documents removed.
-### note
+### Note
 For running next parts of the code faster, we can save the preprocessed data in this step
 the next step is to find the frequency of words and find Tf-Idf matrix. 
 
@@ -82,17 +82,18 @@ You can see the result of this model in Fig-2.
 To get a better result, we run an excellent algorithm for unsupervised data clustering known as the LDA algorithm (the abbreviation LDA stands for Latent Dirichlet allocation). With the assumption of 20 topics, we could see that some of the clusters have overlap. This part has an interactive diagram so that you can see the most critical words in each topic. This overlap means that the meaning of overlapped topic is almost the same.
 Because of this close meaning in some topics, it is suggested not to use word embedding algorithms.
 LDA stands for Latent Dirichlet Allocation. LDA is a Bayesian version of pLSA. In particular, it uses dirichlet priors for the document-topic and word-topic distributions, lending itself to better generalization.
-## NOTE
+### NOTE
 we found 16000 unique words in these files that all raw words was 22500 in all.
 Then we run LSI algorithms, and we compared the result of these algorithms with the previous one using a heatmap, you can see Fig-4 :
 Then with LSI, we implement a function to find the most similar white paper to one specific whitepaper; for example, if you want the most similar paper to paper number 2, you can use this function. The result is :
 
-## final words
+
+## Final words
 
 This report was written mainly to present an idea about unsupervised language processing, not to create the best possible solution based on it, so there is plenty of space to improve it. Improvements that come into my mind include:
-## K-Means clustering based on cosine,
-## Removing Chinese Stop Words 
-## Implement CBOW on our data.
+#### K-Means clustering based on cosine,
+#### Removing Chinese Stop Words 
+#### Implement CBOW on our data.
 When we looked at the words of each cluster, we found that some words like Chinese characters had some negative effect on clustering, which we can improve the results by removing them.
 Word2Vec is a method to construct such an embedding. It can be obtained using two methods (both involving Neural Networks):
 ### Skip Gram
@@ -100,7 +101,8 @@ Word2Vec is a method to construct such an embedding. It can be obtained using tw
 Both have their advantages and disadvantages. According to researchers, Skip Gram works well with a small amount of data and is found to represent rare words well. On the other hand, CBOW is faster and has better representations for more frequent words.
 So, we can implement CBOW on our data.
 Here we arrive at the end of this report.
-## Thank you for reading it.
+
+#### Thank you for reading it.
 
 
 ## Refrences
