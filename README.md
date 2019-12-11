@@ -69,7 +69,8 @@ If theta is 90, then we can say vectors are orthogonal to each other (orthogonal
 Now everything is ready to use a hierarchical clustering algorithm with the use of cosine similarity matrix
 then we can use results in Linkage function in, complete, ward or simple method in order to draw dendrogram.
 Ward method is actually a method that tries to minimize the variance within each cluster. 
-as you can see in Figure-1, the proper number of clusters for this data is about 5-8 clusters
+as you can see in Figure-1, the proper number of clusters for this data is about 5-8 clusters.
+
                                 click on image to see in detail
 <a href="https://github.com/zohreh-aa/clustering/blob/master/Figure_1.png"><img src="https://github.com/zohreh-aa/clustering/blob/master/Figure_1.png" title="Hierarchical clustering" alt="Hierarchical clustering"></a>
 
@@ -86,9 +87,17 @@ You can see the result of this model in Figure-2.
 To get a better result, we run an excellent algorithm for unsupervised data clustering known as the LDA algorithm (the abbreviation LDA stands for Latent Dirichlet allocation). With the assumption of 20 topics, we could see that some of the clusters have overlap. This part has an interactive diagram so that you can see the most critical words in each topic. This overlap means that the meaning of overlapped topic is almost the same.
 Because of this close meaning in some topics, it is suggested not to use word embedding algorithms.
 LDA stands for Latent Dirichlet Allocation. LDA is a Bayesian version of pLSA. In particular, it uses dirichlet priors for the document-topic and word-topic distributions, lending itself to better generalization. you can see the result on LDa output.rar and Figure-3.
+
+                                click on image to see in detail
+<a href="https://github.com/zohreh-aa/clustering/blob/master/Figure_3.png"><img src="https://github.com/zohreh-aa/clustering/blob/master/Figure_3.png" title="LDA" alt="LDA"></a>
+
 ### NOTE
 we found 16000 unique words in these files that all raw words was 22500 in all.
 Then we run LSI algorithms, and we compared the result of these algorithms with the previous one using a heatmap, you can see Fig-4 :
+
+                                click on image to see in detail
+<a href="https://github.com/zohreh-aa/clustering/blob/master/Figure_4.png"><img src="https://github.com/zohreh-aa/clustering/blob/master/Figure_4.png" title="Heat map" alt="heatmap"></a>
+
 Then with LSI, we implement a function to find the most similar white paper to one specific whitepaper; for example, if you want the most similar paper to paper number 2, you can use this function. The result is :
 
 
