@@ -70,7 +70,7 @@ Now everything is ready to use a hierarchical clustering algorithm with the use 
 then we can use results in Linkage function in, complete, ward or simple method in order to draw dendrogram.
 Ward method is actually a method that tries to minimize the variance within each cluster. 
 as you can see in Figure-1, the proper number of clusters for this data is about 5-8 clusters
-
+                                click on image to see in detail
 <a href="https://github.com/zohreh-aa/clustering/blob/master/Figure_1.png"><img src="https://github.com/zohreh-aa/clustering/blob/master/Figure_1.png" title="Hierarchical clustering" alt="Hierarchical clustering"></a>
 
 ## LSI or LSA Model
