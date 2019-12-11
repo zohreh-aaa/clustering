@@ -12,17 +12,16 @@ In this case, I have 94 files. Each file contains many text data. So, my work co
 ## 4-Creating Bag of words and Run Tf_Idf Model
 ## 5-Run clustering Algorithms and Show their results 
 
-# about clustering
-we can cluster these data with two approaches 
+## Clustering
+we can cluster these data with two approaches:
 ## semantic clustering
 ## lexical clustering
 For instance, how similar are the phrases “the cat ate the mouse” with “the mouse ate the cat food” by just looking at the words?
+. On the surface, if you consider only word-level similarity, these two phrases appear very similar to 3 of  4 unique words are an exact overlap. It typically does not take into account the actual meaning behind words or the entire phrase in context.
+. Instead of doing a word for word comparison, we also need to pay attention to the context in order to capture more of the semantics.
+To consider semantic similarity, we need to focus on phrase/paragraph levels (or lexical chain level) where a piece of text is broken into a relevant group of related words before computing similarity.
+. We know that while the words significantly overlap, these two phrases actually have a different meaning
 
-
-. On the surface, if you consider only word-level similarity, these two phrases appear very similar to 3 of the 4 unique words are an exact overlap. It typically does not take into account the actual meaning behind words or the entire phrase in context.
-
-
-. Instead of doing a word for word comparison, we also need to pay attention to the context in order to capture more of the semantics. To consider semantic similarity, we need to focus on phrase/paragraph levels (or lexical chain level) where a piece of text is broken into a relevant group of related words prior to computing similarity. We know that while the words significantly overlap, these two phrases actually have a different meaning.
 ## read data 
 for reading files, we need to run this part of code
 
