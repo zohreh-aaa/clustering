@@ -68,7 +68,7 @@ If theta is 90, then we can say vectors are orthogonal to each other (orthogonal
 Now everything is ready to use a hierarchical clustering algorithm with the use of cosine similarity matrix
 then we can use results in Linkage function in, complete, ward or simple method in order to draw dendrogram.
 Ward method is actually a method that tries to minimize the variance within each cluster. 
-as you can see in Fig-1, the proper number of clusters for this data is about 5-8 clusters
+as you can see in Figure-1, the proper number of clusters for this data is about 5-8 clusters
 
 
 
@@ -76,12 +76,12 @@ as you can see in Fig-1, the proper number of clusters for this data is about 5-
 Latent Semantic Analysis, or LSA, is one of the foundational techniques in topic modeling. The core idea is to take a matrix of what we have — documents and terms — and decompose it into a separate document-topic matrix and a topic-term matrix.
 The first step is generating our document-term matrix. Given m documents and n-words in our vocabulary, we can construct an m × n matrix A in which each row represents a document, and each column represents a word. In the simplest version of LSA, each entry can be a raw count of the number of times the jth word appeared in the ith document. In practice, however, raw counts do not work particularly well because they do not account for the significance of each word in the document. For example, the word “nuclear” probably informs us more about the topic(s) of a given document than the word “test.”
 Consequently, LSA models typically replace raw counts in the document-term matrix with a tf-idf score.
-You can see the result of this model in Fig-2.
+You can see the result of this model in Figure-2.
 
 ## LDA Model
 To get a better result, we run an excellent algorithm for unsupervised data clustering known as the LDA algorithm (the abbreviation LDA stands for Latent Dirichlet allocation). With the assumption of 20 topics, we could see that some of the clusters have overlap. This part has an interactive diagram so that you can see the most critical words in each topic. This overlap means that the meaning of overlapped topic is almost the same.
 Because of this close meaning in some topics, it is suggested not to use word embedding algorithms.
-LDA stands for Latent Dirichlet Allocation. LDA is a Bayesian version of pLSA. In particular, it uses dirichlet priors for the document-topic and word-topic distributions, lending itself to better generalization.
+LDA stands for Latent Dirichlet Allocation. LDA is a Bayesian version of pLSA. In particular, it uses dirichlet priors for the document-topic and word-topic distributions, lending itself to better generalization. you can see the result on LDa output.rar and Figure-3.
 ### NOTE
 we found 16000 unique words in these files that all raw words was 22500 in all.
 Then we run LSI algorithms, and we compared the result of these algorithms with the previous one using a heatmap, you can see Fig-4 :
@@ -103,19 +103,18 @@ So, we can implement CBOW on our data.
 Here we arrive at the end of this report.
 
 #### Thank you for reading it.
+To view the code and execute the written code you can see RUn and result.rar.
 
 
 ## Refrences
 
-1-(https://www.kernix.com/article/similarity-measure-of-textual-documents/)
-2-(https://medium.com/@adriensieg/text-similarities-da019229c894)
-3-(https://towardsdatascience.com/introduction-to-word-embedding-and-word2vec-652d0c2060fa)
-3-(https://towardsdatascience.com/unsupervised-sentiment-analysis-a38bf1906483)
-4-(https://medium.com/@sametgirgin/hierarchical-clustering-model-in-5-steps-with-python-6c45087d4318)
-5-(https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05)
-6-(https://medium.com/towards-artificial-intelligence/text-mining-in-python-steps-and-examples-78b3f8fd913b)
-7-(https://www.learntek.org/blog/categorizing-pos-tagging-nltk-python/)
-8-(https://www.nltk.org/)
-9-(https://expertsystem.com/natural-language-processing-and-text-mining/)
-10-
-5-
+###### 1-(https://www.kernix.com/article/similarity-measure-of-textual-documents/)
+###### 2-(https://medium.com/@adriensieg/text-similarities-da019229c894)
+###### 3-(https://towardsdatascience.com/introduction-to-word-embedding-and-word2vec-652d0c2060fa)
+###### 4-(https://towardsdatascience.com/unsupervised-sentiment-analysis-a38bf1906483)
+###### 5-(https://medium.com/@sametgirgin/hierarchical-clustering-model-in-5-steps-with-python-6c45087d4318)
+###### 6-(https://medium.com/nanonets/topic-modeling-with-lsa-psla-lda-and-lda2vec-555ff65b0b05)
+###### 7-(https://medium.com/towards-artificial-intelligence/text-mining-in-python-steps-and-examples-78b3f8fd913b)
+###### 8-(https://www.learntek.org/blog/categorizing-pos-tagging-nltk-python/)
+###### 9-(https://www.nltk.org/)
+###### 10-(https://expertsystem.com/natural-language-processing-and-text-mining/)
