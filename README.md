@@ -93,12 +93,21 @@ LDA stands for Latent Dirichlet Allocation. LDA is a Bayesian version of pLSA. I
 
 ### NOTE
 we found 16000 unique words in these files that all raw words was 22500 in all.
-Then we run LSI algorithms, and we compared the result of these algorithms with the previous one using a heatmap, you can see Fig-4 :
+Then we run LSI algorithms, and we compared the result of these algorithms with the previous one using a heatmap, you can see (RUn and result.rar) :
 
                                 click on image to see in detail
 <a href="https://github.com/zohreh-aa/clustering/blob/master/Figure_4.png"><img src="https://github.com/zohreh-aa/clustering/blob/master/Figure_4.png" title="Heat map" alt="heatmap"></a>
 
 Then with LSI, we implement a function to find the most similar white paper to one specific whitepaper; for example, if you want the most similar paper to paper number 2, you can use this function. The result is :
+
+###### Most similar texts to  Aion-AION-Whitepaper.txt 
+
+Aion-AION-Whitepaper.txt
+Quant_Overledger_Whitepap.txt
+Theta-white-paper-latest.txt
+IOS-Token-Whitepaper.txt
+Civic (CVC).txt
+
 
 
 ## Final words
