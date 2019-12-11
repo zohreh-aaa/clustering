@@ -79,6 +79,9 @@ The first step is generating our document-term matrix. Given m documents and n-w
 Consequently, LSA models typically replace raw counts in the document-term matrix with a tf-idf score.
 You can see the result of this model in Figure-2.
 
+                                click on image to see in detail
+<a href="https://github.com/zohreh-aa/clustering/blob/master/Figure_2.png"><img src="https://github.com/zohreh-aa/clustering/blob/master/Figure_2.png" title="LSA" alt="LSA"></a>
+
 ## LDA Model
 To get a better result, we run an excellent algorithm for unsupervised data clustering known as the LDA algorithm (the abbreviation LDA stands for Latent Dirichlet allocation). With the assumption of 20 topics, we could see that some of the clusters have overlap. This part has an interactive diagram so that you can see the most critical words in each topic. This overlap means that the meaning of overlapped topic is almost the same.
 Because of this close meaning in some topics, it is suggested not to use word embedding algorithms.
