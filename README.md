@@ -71,7 +71,7 @@ then we can use results in Linkage function in, complete, ward or simple method 
 Ward method is actually a method that tries to minimize the variance within each cluster. 
 as you can see in Figure-1, the proper number of clusters for this data is about 5-8 clusters
 
-
+<a href="https://github.com/zohreh-aa/clustering/blob/master/Figure_1.png"><img src="https://github.com/zohreh-aa/clustering/blob/master/Figure_1.png" title="Hierarchical clustering" alt="Hierarchical clustering"></a>
 
 ## LSI or LSA Model
 Latent Semantic Analysis, or LSA, is one of the foundational techniques in topic modeling. The core idea is to take a matrix of what we have — documents and terms — and decompose it into a separate document-topic matrix and a topic-term matrix.
